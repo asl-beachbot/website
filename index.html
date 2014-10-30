@@ -5,12 +5,15 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="stylesheets/lightbox.css">
     <link href="stylesheets/style.css" rel="stylesheet" type="text/css" media="screen"></link>
 </head>
 <body>
     <nav>
         <div class="container">
-            <img class="logo" src="./images/logo.svg" data-400="opacity: 0;" data-500="opacity: 1;" height="30px">
+            <img class="logo" src="./images/logo.svg" height="80px">
             <ul>
                 <li><a href="">Bot</a></li>
                 <li><a href="">Team</a></li>
@@ -19,19 +22,157 @@
             </ul>
         </div>
     </nav>
-    <section id="beachbot-section" data-0="top: 0%; opacity: 1; background-image: radial-gradient(center bottom, rgb(255, 120, 70) 10px, rgb(10, 20, 150) 800px);" data-300=" background-image: radial-gradient(center bottom, rgb(250, 180, 130) 200px, rgb(200, 150, 100) 800px);" data-500="top: -100%;" >
+    <section id="beachbot-section" style="background-image: url(images/b.jpg); height: 700px" >
         <h1>BeachBot</h1>
-        <img src="./images/logo.svg" width="600px">
+<!--         <img src="./images/logo.svg" width="600px">
+ -->    </section>
+    <section>
+        <div class="pure-g">
+    <div class="pure-u-1-1 centertext">
+    <h2>Worlds first autonomous sand art robot</h2>
+    <p></p></div>
+</div>
+
     </section>
-    <section id="bot-section" data-200="opacity: 1;" data-400="opacity: 1;" >
-        <img src="./images/the_bot.jpg">
+    <section id="photos" class="content-section">
+        <div class="pure-g">
+        <div class="pure-u-1-5">
+            <a   data-lightbox="lb1" style="background: #FE6C30 url(images/sl/IMG_0719.jpg); background-size: cover;" href="images/sl/IMG_0719.JPG" class="imagethumb">
+            </a>
+        </div>        <div class="pure-u-1-5">
+            <a href="images/sl/atWattunfinished.jpg" data-lightbox="lb1" style="background: #FE6C30 url(images/sl/atWattunfinished.jpg); background-size: cover;" class="imagethumb">
+            </a>
+        </div>        <div class="pure-u-1-5">
+            <a href="images/sl/IMG_1042.jpg" data-lightbox="lb1" style="background: #FE6C30 url(images/sl/IMG_1042.jpg); background-size: cover;" class="imagethumb">
+            </a>
+        </div>        <div class="pure-u-1-5">
+            <a href="images/sl/happy.jpg" data-lightbox="lb1" style="background: #FE6C30 url(images/sl/happy.jpg); background-size: cover;" class="imagethumb">
+            </a>
+        </div>        <div class="pure-u-1-5">
+            <a href="images/IMG_0675.jpg" data-lightbox="lb1" style="background: #FE6C30 url(images/sl/IMG_0675.jpg); background-size: cover;" class="imagethumb">
+            </a>
+        </div>
+           
+        </div>
     </section>
-    <section id="team-section" data-800="opacity: 0;" data-1200="opacity: 1;">
-        <h1>The Team</h1>
-        <img src="./images/team.jpg" data-300="transform: rotate(0deg); opacity: 0;" data-400="transform: rotate(3600deg); opacity: 1;">
+    <section class="content-section">
+        <div class="pure-g">
+            <div class="pure-u-1-2">
+                <h2>The Project</h2>
+    <p>The BeachBot is an autonomous robot that can create large scale sand art. The robot will
+    be deployed at a public beach to amaze beachgoers who pass by. Not only the 
+    final picture is important, the whole drawing process will provide an exceptional, 
+    magical show.</p>
+    <p>
+    The BeachBot is not just a lifeless, mechanical being; it is a friendly looking creature with a soul. </p>
+    <h2 class="">Technical Concept</h2>
+        <p>The BeachBot is 60 cm in length and 40 cm in both width and height. To provide maximal mobility and enough robustness a 3 wheel arrangement with differential drive back wheels and a steered wheel in the front is used.</p>
+        <p>The BeachBot carves pictures into sand with a rake consisting of seven individual movable elements actuated by servo motors. They are attached at the tail of the robot.  This solution leads to great visibility of the drawn lines and to a large variety in line width, from minimal 5 cm up to the width of the robot.</p>
+        <p>To be able to draw precisely the BeachBot needs accurate localization. The concept consists of an  laser scanner mounted on the robot plus reflective poles, marking the border of the drawing field. (Therefore the laser can create an active map of its surrounding.)</p>
+        <p>To withstand the rough condition on the beach, the robot must be completely sealed from sand. An aluminum shell and sealing lips make sure no sand enters the interior of the BeachBot.</p><p>
+        Smart software is used to transform images into sand art as well as to control the robot's movement to ensure a spectacular drawing process.</p>
+        <p>To be visually appealing the industrial design students of ZHdK created an enchanting cover for the BeachBot 
+        in the shape of a turtle.</p>
+    <h2>Testing, Prototyping, CAD Process</h2>
+    <p>To come up with the final technical concept a lot of prototyping and testing needed to be done. 
+The very first task was to set up a testing environment, which suited our needs. A mini test beach with 3 cubic meters of sand was set up.</p>
+<p>To test different wheel arrangements and robot weights the “motorized prototype” was built.</p>
+<p>To come up with an optimal mechanical solution for the drawing tool a lot of prototypes were build. (e.g. early rake prototype).</p>
+        </div>
+        <div class="pure-u-1-2">
+            <div class="pure-g">
+                <div class="pure-u-1-1 gimage" style="background-image: url(images/beachbot1.jpg);">
+                </div>
+                <div class="pure-u-1-1 gimage" style="background-image: url(images/beachbot2.jpg);">
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="team-section" class="content-section">
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+               <h2>About us</h2> 
+            </div>
+            <div class="pure-u-1-2">
+                <p>Focus Projects at ETH Zurich offer students the opportunity to deepen their knowledge in a project-based environment instead of visiting regular courses. Spanning two semesters, teams of 5-8 students work in various fields of mechanical engineering, designing and constructing a prototype that is presented in a project rollout in the main hall of ETH at the end of the spring semester.</p>
+                <p>Our Team consists of 7 mechanical engineers and one electrical engineer from ETH Zurich complemented by 2 industrial designers from the Zurich University of the Arts (ZHdK). </p>
+            </div>
+            <div class="pure-u-1-2 gimage" style="background-image: url(images/team.jpg)">
+            </div>
+            <div class="pure-u-1-1 small-head">
+                <h2>Hardware</h2>
+            </div>
+                <div class="pure-u-1-4">
+                    <h3>Timo Müller</h3>
+                    <p>Locomotion</p>
+                </div>
+                <div class="pure-u-1-4">
+                    <h3>Jonathan Huber</h3>
+                    <p>Steering Mechanism</p>
+                </div>
+                <div class="pure-u-1-4">
+                    <h3>Roman Müller</h3>
+                    <p>Drawing Mechanism</p>
+                </div>
+                <div class="pure-u-1-4">
+                    <h3>Markus Stäuble</h3>
+                    <p>Sensor Suspension</p>
+                </div>
+                <div class="pure-u-1-1 small-head">
+                    <h2>Software</h2>
+                </div>
+                <div class="pure-u-1-4">
+                    <h3>Timon Homberger</h3>
+                    <p>Control</p>
+                </div>
+                <div class="pure-u-1-4">
+                    <h3>Lorenz Wellhausen</h3>
+                    <p>Localization</p>
+                </div>
+                <div class="pure-u-1-4">
+                    <h3>Wolf Vollprecht</h3>
+                    <p>Path Planning</p>
+                </div>
+
+                <div class="pure-u-1-1 small-head">
+                    <h2>Industrial Design and Electrical Engineering</h2>
+                </div>        
+                <div class="pure-u-1-4">
+                    <h3>Manuel Rossegger</h3>
+                    <p>Industrial Design</p>
+                </div>
+                <div class="pure-u-1-4">
+                    <h3>Philipp Bühler</h3>
+                    <p>Industrial Design</p>
+                </div>
+                <div class="pure-u-1-4">
+                    <h3>Dominik Rüttimann</h3>
+                    <p>Electrical Engineering</p>
+                </div>
+                </div> 
+    </section>
+    <section class="content-section">
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <h2>Contact / Facebook</h2>
+            </div>
+            <div class="pure-u-1-1">
+                <h2>Address</h2>
+                <p>Leonhardstrasse 27<br>LEO B8.4<br>8052 Zürich<br>Tel: 044 633 82 21
+
+                <br><br>Email us: <a href="mailto:beachboteth@gmail.com">beachboteth@gmail.com</a>
+            </p>
+                <h2>Like us on <a href="https://www.facebook.com/eth.beachbot">Facebook</a>!</h2>
+                <p>To get all the latest news from the BeachBot project!</p>
+            </div>
+        </div>
     </section>
 </body>
     <script src="js/skrollr.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
     <script src="js/effects.js"></script>
-
+    
 </html>
